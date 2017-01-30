@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void setHelloText() {
         TextView helloText = (TextView)findViewById(R.id.textviewid1);
         helloText.setText("Hello World Through Code");
+        helloText.setTextSize(20);
 
     }
 }
