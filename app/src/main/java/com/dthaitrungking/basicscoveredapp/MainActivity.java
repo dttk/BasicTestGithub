@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void setHelloText() {
         TextView helloText = (TextView)findViewById(R.id.textviewid1);
-        helloText.setText("Hello World Again Branch 1");
+        helloText.setText("Hello World Again Master");
         helloText.setTextSize(20);
 
     }
